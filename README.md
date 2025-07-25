@@ -16,7 +16,7 @@ Python 3.6+
 
 ![Cities code section](/cities.png)
 
-4. Add or remove any cities you're interested in.
+4. Add or remove any cities you're interested in. Make sure they're written correctly, otherwise the script can't find them.
 5. (Optional) If you have any mods installed that add trade goods, you will need to open the mod in the construction set that comes with Kenshi and find the ID associated with that item. Then add that ID with the corresponding name to the item_dict below in the script. It should work with mods, but I haven't tested it. So no guarantees.
 6. Save the file.
 7. Open a terminal of your choice and run the script with Python.
