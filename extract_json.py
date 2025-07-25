@@ -152,10 +152,10 @@ def main():
 		if markups:
 			result[city] = markups
 	
-	with open("trade_markups.json", "w", encoding="utf-8") as f:
+	with open("extracted_data.json", "w", encoding="utf-8") as f:
 		json.dump(result, f, indent=4)
 	
-	print("Trade markups have been saved to trade_markups.json")
+	print("Trade markups have been saved to extracted_data.json")
 
 if __name__ == "__main__":
 	main()
