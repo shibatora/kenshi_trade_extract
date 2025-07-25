@@ -6,11 +6,11 @@ These scripts extract all the trade data for every city in Kenshi. `extract_csv.
 
 I wrote this script very quickly for my own trader playthrough. I didn't use any mods so it may or may not work with mods. There's no harm in trying, but there's no guarantee it will work and I won't fix it in case it doesn't. You're on your own.
 
-## Requirements:
+## Requirements
 
 Python 3.6+
 
-## How to Use:
+## How to Use
 
 1. Download either or all python files.
 2. Move the script into one of your Kenshi save directories. You got the right directory if there is a file called "quick.save" in there.
