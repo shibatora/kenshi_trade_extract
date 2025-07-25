@@ -1,5 +1,7 @@
 # Kenshi Trade Extract Scripts
 
+These scripts extract all the trade data for every city in Kenshi. `extract_csv.py` outputs a csv file, while `extract_json.py` outputs a json file.
+
 ## Disclaimer
 
 I wrote this script very quickly for my own trader playthrough. I didn't use any mods so it may or may not work with mods. There's no harm in trying, but there's no guarantee it will work and I won't fix it in case it doesn't. You're on your own.
