@@ -159,7 +159,7 @@ def main():
 				})
 	
 	# Write to CSV
-	with open("trade_markups.csv", "w", newline='', encoding="utf-8") as csvfile:
+	with open("extracted_data.csv", "w", newline='', encoding="utf-8") as csvfile:
 		fieldnames = ["city", "item_name", "string_id", "markup"]
 		writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 		
@@ -167,7 +167,7 @@ def main():
 		for row in result:
 			writer.writerow(row)
 	
-	print("Trade markups have been saved to trade_markups.csv")
+	print("Trade markups have been saved to extracted_data.csv")
 
 if __name__ == "__main__":
 	main()
