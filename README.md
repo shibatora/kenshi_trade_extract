@@ -14,7 +14,7 @@ Python 3.6+
 
 1. Download either or all python files.
 2. Move the script into one of your Kenshi save directories. You got the right directory if there is a file called "quick.save" in there.
-3. Open the script with a text editor of your choice. Scroll down until you find the following text passage:
+3. Open the script with a text editor of your choice. Scroll down until you find the following code:
 
 ![Cities code section](/cities.png)
 
